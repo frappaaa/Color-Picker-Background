@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Pier Sans';
+    src: url('/fonts/Pier-Sans/Regular/hinted-PierSans-Regular.woff'), url('/fonts/Pier-Sans/Regular/hinted-PierSans-Regular.woff2'), url('/fonts/Pier-Sans/Regular/hinted-PierSans-Regular.svg'), url('/fonts/Pier-Sans/Regular/hinted-PierSans-Regular.ttf'), url('/fonts/Pier-Sans/Regular/hinted-PierSans-Regular.eot');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 30px 40px 100px 30px;
+    font-family: 'Pier Sans';
+    scroll-behavior: smooth;
+}
+p{
+    margin: 0;
+    font-size: 4em;
+    width: 80%;
+    @media only screen and (max-width: 640px) {
+        font-size: 2em;
+    }
+}
+label{
+    font-size: 3rem;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    backdrop-filter: blur(10px) hue-rotate(120deg);
+    -webkit-backdrop-filter: blur(10px) hue-rotate(120deg);
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    width: 95%;
+    text-align: right;
+}
+
+#colorWell{
+    padding: 0;
+    border-width: 2px;
+}

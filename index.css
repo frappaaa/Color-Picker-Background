@@ -15,14 +15,8 @@ body {
 
 body p {
   margin: 0;
-  font-size: 2em;
+  font-size: 1.5em;
   width: 80%;
-}
-
-@media only screen and (max-width: 800px) {
-  body p {
-    font-size: 2em;
-  }
 }
 
 body label {
@@ -34,17 +28,7 @@ body label {
   -webkit-backdrop-filter: blur(10px) hue-rotate(120deg);
   background-color: rgba(255, 255, 255, 0.3);
   padding: 10px;
-  width: 95%;
   text-align: right;
-}
-
-@media only screen and (max-width: 800px) {
-  body label {
-    width: auto;
-  }
-  body label p {
-    display: none;
-  }
 }
 
 body #colorWell {

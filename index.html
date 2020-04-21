@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>color picker</title>
+</head>
+<body id="body">
+     
+     <label for="color">Color :
+        <input type="color"  id="colorWell" name="color">
+     </label>
+     
+     <p>Watch the paragraph colors change when you adjust the color picker.
+        As you make changes in the color picker, the first paragraph's
+        color changes, as a preview (this uses the <code>input</code>
+        event). When you close the color picker, the <code>change</code>
+        event fires, and we detect that to change every paragraph to
+        the selected color.</p>
+    
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js"></script>
+        <script src="index.js"></script>
+</body>
+</html>

@@ -13,19 +13,19 @@ body {
   scroll-behavior: smooth;
 }
 
-p {
+body p {
   margin: 0;
-  font-size: 4em;
+  font-size: 2em;
   width: 80%;
 }
 
 @media only screen and (max-width: 640px) {
-  p {
+  body p {
     font-size: 2em;
   }
 }
 
-label {
+body label {
   font-size: 3rem;
   position: fixed;
   bottom: 10px;
@@ -39,15 +39,15 @@ label {
 }
 
 @media only screen and (max-width: 640px) {
-  label {
+  body label {
     width: auto;
   }
-  label p {
+  body label p {
     display: none;
   }
 }
 
-#colorWell {
+body #colorWell {
   padding: 0;
   border-width: 2px;
 }

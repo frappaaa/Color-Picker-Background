@@ -38,6 +38,15 @@ label {
   text-align: right;
 }
 
+@media only screen and (max-width: 640px) {
+  label {
+    width: auto;
+  }
+  label p {
+    display: none;
+  }
+}
+
 #colorWell {
   padding: 0;
   border-width: 2px;

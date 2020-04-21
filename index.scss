@@ -31,6 +31,12 @@ label{
     padding: 10px;
     width: 95%;
     text-align: right;
+    @media only screen and (max-width: 640px) {
+        width: auto;
+        p{
+            display: none;
+        }
+    }
 }
 
 #colorWell{

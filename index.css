@@ -42,5 +42,7 @@ body label {
 body #colorWell {
   padding: 0;
   border-width: 2px;
+  -ms-grid-column-align: center;
+      justify-self: center;
 }
 /*# sourceMappingURL=index.css.map */

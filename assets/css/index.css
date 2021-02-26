@@ -7,20 +7,9 @@
 
 body {
   margin: 0;
-  padding: 30px 40px 100px 30px;
+  min-height: 100vh;
   font-family: 'Lato', sans-serif;
-}
-
-body p {
-  margin: 0;
-  font-size: 1.5em;
-  width: 80%;
-}
-
-body label {
-  -webkit-backdrop-filter: blur(10px) hue-rotate(180deg);
-          backdrop-filter: blur(10px) hue-rotate(180deg);
-  background-color: rgba(255, 255, 255, 0.3);
+  padding: 20px;
 }
 
 body #colorWell {
@@ -28,5 +17,27 @@ body #colorWell {
   border-width: 2px;
   -ms-grid-column-align: center;
       justify-self: center;
+}
+
+body .change {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  margin: 10px;
+  bottom: 0px;
+  right: 0px;
+  float: right;
+  -webkit-backdrop-filter: blur(10px) hue-rotate(180deg);
+          backdrop-filter: blur(10px) hue-rotate(180deg);
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+body .change > label {
+  margin-right: 10px;
 }
 /*# sourceMappingURL=index.css.map */

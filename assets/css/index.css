@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Pier Sans';
-  src: url("/fonts/Pier-Sans/Regular/hinted-PierSans-Regular.woff"), url("/fonts/Pier-Sans/Regular/hinted-PierSans-Regular.woff2"), url("/fonts/Pier-Sans/Regular/hinted-PierSans-Regular.svg"), url("/fonts/Pier-Sans/Regular/hinted-PierSans-Regular.ttf"), url("/fonts/Pier-Sans/Regular/hinted-PierSans-Regular.eot");
+  src: url("../fonts/Pier-Sans/Regular/hinted-PierSans-Regular.woff"), url("../fonts/Pier-Sans/Regular/hinted-PierSans-Regular.woff2"), url("../fonts/Pier-Sans/Regular/hinted-PierSans-Regular.svg"), url("../fonts/Pier-Sans/Regular/hinted-PierSans-Regular.ttf"), url("../fonts/Pier-Sans/Regular/hinted-PierSans-Regular.eot");
   font-weight: 400;
   font-style: normal;
 }

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Lato&family=DotGothic16&display=swap");
 @font-face {
   font-family: 'Pier Sans';
   src: url("../fonts/Pier-Sans/Regular/hinted-PierSans-Regular.woff"), url("../fonts/Pier-Sans/Regular/hinted-PierSans-Regular.woff2"), url("../fonts/Pier-Sans/Regular/hinted-PierSans-Regular.svg"), url("../fonts/Pier-Sans/Regular/hinted-PierSans-Regular.ttf"), url("../fonts/Pier-Sans/Regular/hinted-PierSans-Regular.eot");
@@ -7,9 +8,10 @@
 
 body {
   margin: 0;
-  min-height: 100vh;
+  min-height: calc(100vh - 40px);
   font-family: 'Lato', sans-serif;
   padding: 20px;
+  overflow: hidden;
 }
 
 body #colorWell {
